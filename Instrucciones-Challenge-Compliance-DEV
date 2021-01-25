@@ -1,10 +1,10 @@
-**Caso - Compliance continuo de servidores**
+Caso - Compliance continuo de servidores
 
-**Contexto**
+Contexto
 
 El equipo de Seguridad Informática de Mercado Libre, se encarga de realizar controles sobre el compliance continuo de distintos servidores en la nube. Por las cantidades de servidores que se administran, poder asegurar manualmente que estos cumplan el estándar definido por el equipo no es escalable, y se busca alguna forma de poder alivianar esta tarea. 
 
-**Objetivo**
+Objetivo
 
 Generar un programa (agente) que pueda ser ejecutado en uno de nuestros servidores, y a partir de distintos comandos del sistema operativo, pueda enviar los siguientes datos a una aplicación (API): 
 
