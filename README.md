@@ -1,4 +1,4 @@
-Getting Started
+*Instrucciones*
 
 Run the App:
 
