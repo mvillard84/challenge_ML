@@ -1,14 +1,14 @@
 **Instrucciones**
 
-*- Ejecutar el audit_server:*
+- Ejecutar el audit_server:
 
 python audit_server.py
 
-*- Ejecutar el audit_server utilizando Docker*
+- Ejecutar el audit_server utilizando Docker
 
 docker build -f Dockerfile -t audit_server . docker run -p 5001:5000 audit_server
 
-*- Ejecutar el audit_agent en cada uno de los host a revisar:*
+- Ejecutar el audit_agent en cada uno de los host a revisar:
 
 python agent.py
 
