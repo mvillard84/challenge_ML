@@ -48,15 +48,6 @@ def home():
 # Recurso principal hacia donde debe ser enviada la información
 @app.route('/audit', methods=['GET'])
 def check():
-    informacion = {
-        "ip": "",
-        "procesador": "",
-        "procesos": "",
-        "sesiones": "",
-        "so": "",
-        "version": ""
-    }
-
     headers = request.headers
     save_info(request.args)
 
